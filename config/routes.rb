@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   get 'buying', to: 'static_pages#buying'
   get 'lending', to: 'static_pages#lending'
   get 'renting', to: 'static_pages#renting'
-  get 'managing', to: 'static_pages#buying'
+  get 'managing', to: 'static_pages#managing'
   get 'property0', to: 'static_pages#property0'
 end
